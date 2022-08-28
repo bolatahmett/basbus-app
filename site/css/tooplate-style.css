@@ -14,8 +14,10 @@ body {
   padding-top: 70px;
 }
 
-.full-screen {
-  padding: 8rem 0;
+@media (min-width: 800px) {
+  .full-screen {
+    padding: 8rem 0;
+  }
 }
 
 .small-text {
